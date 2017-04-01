@@ -1,4 +1,4 @@
-function Prediction = CorrFilter_SVR_LOOCV(Subjects_Data, Subjects_Scores, CoefThreshold, ResultantFolder)
+function Prediction = CorrFilter_SVR_LOOCV(Subjects_Data, Subjects_Scores, CoefThreshold, Pre_Method, ResultantFolder)
 %
 % Subject_Data:
 %           m*n matrix
